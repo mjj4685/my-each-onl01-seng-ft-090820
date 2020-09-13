@@ -14,12 +14,12 @@ my_each(list) {|i| puts "#{i} are you going to drink that?"}
 
 def hello(array)
   i = 0
-  basket = []
+  drinks = []
   while i < array.length
-    basket << yield(array[i])
+    drinks << yield(array[i])
     i += 1
   end
-  basket
+  drinks
 end
 
-hello(list) {|i| "Yes #{i} go get your own!"}
+hello(list) {|i| "#{i} go get your own!"}
