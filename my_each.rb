@@ -23,4 +23,3 @@ def hello(array)
 end
 
 hello(list) {|i| "Yes #{i} go get your own!"}
-
