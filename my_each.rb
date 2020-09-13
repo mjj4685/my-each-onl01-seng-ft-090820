@@ -4,8 +4,8 @@ def my_each(array)
   drinks = 0
   while drinks < array.length
 
-    yield(array[context])
-    context = context + 1
+    yield(array[drinks])
+    drinks = drinks + 1
   end
 end
 
