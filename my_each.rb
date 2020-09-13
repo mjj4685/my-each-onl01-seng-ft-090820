@@ -1,15 +1,15 @@
 list = ["ab", "cd", "ef"]
 
 def my_each(array)
-  drinks = 0
-  while drinks < array.length
-
-    yield(array[drinks])
-    drinks = drinks + 1
+  i = 0
+  while i < array.length
+# The "while" method will always return a value of => nil"
+    yield(array[i])
+    i = i + 1
   end
 end
 
-my_each(list) {|drinks| "#{drinks} are you going to drink that?"}
+my_each(list) {|i| puts "#{i} are you going to drink that?"}
 
 
 def hello(array)
