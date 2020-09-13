@@ -1,8 +1,8 @@
 list = ["ab", "cd", "ef"]
 
 def my_each(array)
-  counter = 0
-  while counter < array.length
+  drinks = 0
+  while drinks < array.length
 
     yield(array[counter])
     counter += 1
