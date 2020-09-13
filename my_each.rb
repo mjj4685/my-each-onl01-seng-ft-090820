@@ -22,4 +22,4 @@ def hello(array)
   drinks
 end
 
-hello(list) {|i| "#{i} go get your own!"}
+my_each(list) {|i| "#{i} go get your own!"}
