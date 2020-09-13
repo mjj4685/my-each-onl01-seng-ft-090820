@@ -9,7 +9,7 @@ def my_each(array)
   end
 end
 
-my_each(list) {|i| puts "#{i} are you going to drink that?"}
+my_each(list) {|i| "#{i} are you going to drink that?"}
 
 
 def hello(array)
